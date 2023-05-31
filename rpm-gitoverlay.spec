@@ -1,10 +1,10 @@
 Name:           rpm-gitoverlay
-Version:        0.2
+Version:        0.3
 Release:        1%{?dist}
 Summary:        Manage an overlay repository of RPMs from upstream git
 
 License:        GPLv3+
-URL:            https://github.com/rpm-software-management/%{name}
+URL:            https://github.com/kontura/%{name}
 Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  python3-devel
